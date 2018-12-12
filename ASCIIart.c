@@ -1,6 +1,10 @@
 #include <stdio.h>
 #include <stdbool.h>
 
+###### input is pbm images (portable bit map)
+###### compile using gcc
+###### COMMAND LINE SYNTAX: ./<Executable_Name> <PBM Image File> <Name of Generated Text File>
+
 int map (double, double);
 char match (int);
 int ab (int);
